@@ -14,6 +14,6 @@ To submit the job to Iceberg, you will need to
 When the job completes, you will have two additional files in your current directory
 
 * hello.py.oXXXXX (Contains standard output stream. Should contain 'Hello World')
-* hello.py.eXXXXX (Contains standard error stream. Should be empty in this case)
+* hello.py.eXXXXX (Contains standard error stream.)
 
 Where XXXXX will be a number corresponding to the job identificaton number assigned by the system.
