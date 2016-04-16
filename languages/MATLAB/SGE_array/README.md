@@ -18,8 +18,7 @@ To submit the job to Iceberg, you will need to
 * Enter `qsub run_sweep.sge`
 
 This efficiently creates 10 jobs that differ by having the `$SGE_TASK_ID` variable range from 1 to 10.
-This is controlled by the line `#$ -t 1-10` in the submission script.  
-You can have any range of integers you like. e.g. `#$ -t 21-45`
+This is controlled by the line `#$ -t 1-10` in the submission script. You can have any range of integers you like. e.g. `#$ -t 21-45`
 
 When the job completes, you will have twenty additional files in your current directory.
 The filenames will have the following structure.
