@@ -8,8 +8,8 @@ This is an example of a **parameter sweep**.
 A common solution to this problem type is to create a script that creates and submits 10 submission scripts. This is inefficient and puts a lot of pressure on the scheduler.
 It is more efficient to use a SGE task array.
 
-* myfunc.m - MATLAB function that divides its input argument by 5.
-* run_sweep.sge - A Sun Grid Engine submission script that creates 10 different tasks.
+* **myfunc.m** - MATLAB function that divides its input argument by 5.
+* **run_sweep.sge** - A Sun Grid Engine submission script that creates 10 different tasks.
 
 To submit the job to Iceberg, you will need to
 
