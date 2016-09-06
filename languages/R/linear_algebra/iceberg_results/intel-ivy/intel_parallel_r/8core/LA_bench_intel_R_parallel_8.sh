@@ -5,7 +5,6 @@
 #$ -l arch=intel-e5-2650v2
 #$ -pe openmp 8
 #$ -t 1-5
-#$ -P radiant
 export OMP_NUM_THREADS=8
 module load apps/intel/15/R/3.3.1_parallel    # Recommended to load a specific version of R
 

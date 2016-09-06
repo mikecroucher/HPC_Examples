@@ -4,7 +4,6 @@
 #$ -l mem=8G -l rmem=8G
 #$ -l arch=intel-e5-2650v2
 #$ -t 1-5
-#$ -P radiant
 
 module load apps/intel/15/R/3.3.1_sequential
 
