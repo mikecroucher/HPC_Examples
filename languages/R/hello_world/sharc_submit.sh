@@ -1,4 +1,5 @@
 #!/bin/bash
+#A batch submission script for Sheffield's ShARC cluster
 #$ -cwd                                # Run job from current directory
 #$ -l rmem=4G                          # Request 4 gigabytes of memory
 
