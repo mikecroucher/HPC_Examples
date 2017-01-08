@@ -1,0 +1,20 @@
+         MatMul  Chol   SVD   PCA    LDA
+elapsed   0.785 0.248 1.223 2.976 13.844
+elapsed1  0.677 0.254 1.204 3.562 13.835
+elapsed2  0.690 0.258 1.194 3.547 13.834
+elapsed3  0.697 0.238 1.293 2.999 13.896
+elapsed4  0.739 0.254 1.230 3.477 13.870
+     MatMul            Chol             SVD             PCA       
+ Min.   :0.6770   Min.   :0.2380   Min.   :1.194   Min.   :2.976  
+ 1st Qu.:0.6900   1st Qu.:0.2480   1st Qu.:1.204   1st Qu.:2.999  
+ Median :0.6970   Median :0.2540   Median :1.223   Median :3.477  
+ Mean   :0.7176   Mean   :0.2504   Mean   :1.229   Mean   :3.312  
+ 3rd Qu.:0.7390   3rd Qu.:0.2540   3rd Qu.:1.230   3rd Qu.:3.547  
+ Max.   :0.7850   Max.   :0.2580   Max.   :1.293   Max.   :3.562  
+      LDA       
+ Min.   :13.83  
+ 1st Qu.:13.84  
+ Median :13.84  
+ Mean   :13.86  
+ 3rd Qu.:13.87  
+ Max.   :13.90  
