@@ -6,4 +6,4 @@
 
 module load apps/R/3.3.2/gcc-4.8.5     # Recommended to load a specific version of R
 
-R CMD BATCH vectorised_monte_carlo.R result.$JOB_ID
+Rscript vectorised_monte_carlo.R 
