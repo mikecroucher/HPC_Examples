@@ -1,0 +1,12 @@
+#!/bin/bash
+#Single node example for parallel MATLAB on Sheffield's ShARC system
+#Request 4 Gigabytes of memory per core
+#$ -l rmem=4G
+#Request 8 cores on a single node
+#$ -pe smp 8
+
+#Load the MATLAB 2017b Environment module
+module load apps/matlab/2017b/binary
+
+#Run parallel_example.m
+matlab -nodisplay -r "parallel_example"
